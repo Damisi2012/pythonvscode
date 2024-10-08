@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title='Season shop',page_icon='')
+st.set_page_config(page_title='Season shop',page_icon='⚽🛍️')
 password = st.text_input('Login to your account',type='password')
 if password == 'Socceristhebestsportevercreated':
     st.write('You are logged in')
